@@ -5,7 +5,9 @@ import Home from './screens/home';
 
 const getFonts = () => {
   return Font.loadAsync({
-    'nunito-regular': require('./assets/fonts/Nunito-Regular.ttf')
+  
+    'nunito-regular': require('./assets/fonts/Nunito-Regular.ttf'),
+    'nunito-bold': require('./assets/fonts/Nunito-Bold.ttf')
   })
 }
 
