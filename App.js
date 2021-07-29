@@ -3,13 +3,12 @@ import * as Font from 'expo-font';
 import Home from './screens/home';
 
 
-const getFonts = () => {
-  return Font.loadAsync({
+const getFonts = () => Font.loadAsync({
   
-    'nunito-regular': require('./assets/fonts/Nunito-Regular.ttf'),
-    'nunito-bold': require('./assets/fonts/Nunito-Bold.ttf')
-  })
-}
+  'nunito-regular': require('./assets/fonts/Nunito-Regular.ttf'),
+  'nunito-bold': require('./assets/fonts/Nunito-Bold.ttf')
+  });
+
 
 export default function App() {
   return (
