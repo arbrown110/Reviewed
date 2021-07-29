@@ -11,6 +11,8 @@ const getFonts = () => Font.loadAsync({
 
 
 export default function App() {
+  const [fontsLoaded, setFontLoaded]
+
   return (
     <Home />
   );
