@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import * as Font from 'expo-font';
 import Home from './screens/home';
 
@@ -11,7 +11,7 @@ const getFonts = () => Font.loadAsync({
 
 
 export default function App() {
-  const [fontsLoaded, setFontLoaded]
+  const [fontsLoaded, setFontLoaded] = useState(false);
 
   return (
     <Home />
