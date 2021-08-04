@@ -19,10 +19,12 @@ export default function App() {
       <Home />
     );
   } else {
-    <AppLoading
-      startAsync={getFronts}
-      onFinsh={() => setFontsLoaded(true)}
-    />
+    return (
+      <AppLoading
+        startAsync={getFronts}
+        onFinsh={() => setFontsLoaded(true)}
+      />
+    )
   }
 }
 
