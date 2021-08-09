@@ -9,8 +9,9 @@ export const globelStyles = StyleSheet.create({
         fontfamily: 'nunito-bold',
         frontSize: 18,
         color: '#333'
-    }
+    },
     paragraph: {
         marginVertical: 8,
+        lineHeight: 20,
     }
 });
