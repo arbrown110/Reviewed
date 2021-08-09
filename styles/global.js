@@ -2,7 +2,6 @@ import { StyleSheet } from 'react-native';
 
 export const globelStyles = StyleSheet.create({
     container: {
-        padding: 24
         flex: 1,
         padding: 20,
     },
@@ -10,5 +9,8 @@ export const globelStyles = StyleSheet.create({
         fontfamily: 'nunito-bold',
         frontSize: 18,
         color: '#333'
+    }
+    paragraph: {
+        marginVertical: 8,
     }
 });
