@@ -5,6 +5,9 @@ import { createAppContainer } from 'react-navigtion';
 const sreens = {
     Home: {
         screen: Home
+    },
+    Reviewdetails: {
+        screen:
     }
 }
 const HomeStack = createStackNavigator(screens);
