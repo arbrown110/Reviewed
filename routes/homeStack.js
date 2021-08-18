@@ -3,6 +3,8 @@ import { createAppContainer } from 'react-navigtion';
 
 
 const sreens = {
-
+    Home: {
+        screen: Home
+    }
 }
 const HomeStack = createStackNavigator(screens);
