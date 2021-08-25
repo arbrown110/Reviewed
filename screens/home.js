@@ -6,8 +6,8 @@ export default function Home({  navigaiton }) {
   
   
     const pressHandler = () => {
-        navigaiton.nagate('ReviewDetails');
-
+      //  navigaiton.nagate('ReviewDetails');
+        navigaiton.push('ReviewDetails');
     }
     
     return (
