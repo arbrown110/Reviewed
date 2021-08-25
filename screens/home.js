@@ -6,14 +6,14 @@ export default function Home({  navigaiton }) {
   
   
     const pressHandler = () => {
-        navigaiton.nagate('ReviewDetails')
+        navigaiton.nagate('ReviewDetails');
 
     }
     
     return (
         <View> style={globalStyles.container}
             <Text style={globalStyles.titletext}>Home Screen </Text>
-            <Button title 'go to review details' onPress={} />
+            <Button title 'go to review details' onPress={pressHandler} />
         </View>
     )
 
