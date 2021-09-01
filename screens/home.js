@@ -17,7 +17,7 @@ export default function Home({ navigaiton }) {
                 data={reviews}
                 renderItem={({ item }) => (
                     <TouchableOpacity>
-                        <Text>{ item.title }</Text>
+                        <Text style={globalStyles.titleText}>{ item.title }</Text>
                     </TouchableOpacity>
                 )}
             />
