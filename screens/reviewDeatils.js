@@ -12,7 +12,7 @@ export default function RevieDetails({ navigation }) {
     return (
         <View> style={globalStyles.container}
             <Text>Detail Screen </Text>
-            <Button title 'back to home screen' onPress={pressHandler} />
+            {/* <Button title 'back to home screen' onPress={pressHandler} /> */}
         </View>
     )
 
