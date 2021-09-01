@@ -13,6 +13,12 @@ export default function Home({ navigaiton }) {
 
     return (
         <View> style={globalStyles.container}
+            <FlatList 
+                data={reviews}
+                renderItem={() => {
+                    
+                }}
+            />
             {/* <Text style={globalStyles.titletext}>Home Screen </Text> */}
             {/* <Button title 'go to review details' onPress={pressHandler} /> */}
         </View>
