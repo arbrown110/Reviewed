@@ -5,14 +5,14 @@ import { globalStyles } from '../styles/global';
 export default function RevieDetails({ navigation }) {
 
     const pressHandler = () => {
-        navigation.goBack()
+        navigation.goBack();
     }
 
 
     return (
         <View> style={globalStyles.container}
             <Text>Detail Screen </Text>
-            <Button title ' back to home screen' onPress={pressHandler} />
+            <Button title 'back to home screen' onPress={pressHandler} />
         </View>
     )
 
