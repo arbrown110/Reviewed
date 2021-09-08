@@ -11,7 +11,7 @@ export default function RevieDetails({ navigation }) {
 
     return (
         <View> style={globalStyles.container}
-            <Text>ReviewDetail Screen </Text>
+            <Text>{ navigation.getParam() }</Text>
             {/* <Button title 'back to home screen' onPress={pressHandler} /> */}
         </View>
     )
