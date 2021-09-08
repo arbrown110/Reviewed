@@ -11,7 +11,9 @@ export default function RevieDetails({ navigation }) {
 
     return (
         <View> style={globalStyles.container}
-            <Text>{ navigation.getParam() }</Text>
+            <Text>{ navigation.getParam('title') }</Text>
+            <Text>{ navigation.getParam('title') }</Text>
+            <Text>{ navigation.getParam('title') }</Text>
             {/* <Button title 'back to home screen' onPress={pressHandler} /> */}
         </View>
     )
