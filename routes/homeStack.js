@@ -8,7 +8,8 @@ const screens = {
     Home: {
         screen: Home,
         navigationOptions:{
-            title: 'GameZone'
+            title: 'GameZone',
+            headerStyles: { backgroundColor: '#eee'}
         }
     },
     Reviewdetails: {
