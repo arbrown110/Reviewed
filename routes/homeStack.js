@@ -12,7 +12,10 @@ const screens = {
         }
     },
     Reviewdetails: {
-        screen: ReviewDetails
+        screen: ReviewDetails,
+        navigationOptions:{
+            title: 'Review Details'
+        }
     }
 }
 const HomeStack = createStackNavigator(screens);
