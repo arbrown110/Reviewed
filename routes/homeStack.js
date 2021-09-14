@@ -9,13 +9,14 @@ const screens = {
         screen: Home,
         navigationOptions:{
             title: 'GameZone',
-            headerStyles: { backgroundColor: '#eee'}
+            headerStyle: { backgroundColor: '#eee'}
         }
     },
     Reviewdetails: {
         screen: ReviewDetails,
         navigationOptions:{
-            title: 'Review Details'
+            title: 'Review Details',
+            headerStyle: { backgroundColor: '#eee'}
         }
     }
 }
