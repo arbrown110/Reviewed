@@ -12,13 +12,6 @@ const screens = {
             // headerStyle: { backgroundColor: '#eee'}
         }
     },
-    Reviewdetails: {
-        screen: ReviewDetails,
-        navigationOptions:{
-            title: 'Review Details',
-            // headerStyle: { backgroundColor: '#eee'}
-        }
-    }
 }
 const AboutStack = createStackNavigator(screens, {
     defaultNavigationOptions: {
