@@ -28,4 +28,4 @@ const HomeStack = createStackNavigator(screens, {
     }
 });
 
-export default HomeStack
+export default HomeStack;
