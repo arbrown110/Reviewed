@@ -5,10 +5,10 @@ import ReviewDetails from '../screens/reviewDetails'
 
 
 const screens = {
-    Home: {
-        screen: Home,
+    About: {
+        screen: About,
         navigationOptions:{
-            title: 'GameZone',
+            title: 'About GameZone',
             // headerStyle: { backgroundColor: '#eee'}
         }
     },
