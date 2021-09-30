@@ -1,5 +1,6 @@
 import { createDrawerNavigatior } from 'react-navigation-drawer';
 import { createAppcontainer } from 'react-navigation';
+import About from '../screens/about';
 
 const RootDrawerNavigator = createDrawerNavigatior({
     home: {
@@ -7,6 +8,6 @@ const RootDrawerNavigator = createDrawerNavigatior({
 
     },
     About: {
-        
+        screen: AboutStack
     }
 })
