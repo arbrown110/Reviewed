@@ -8,7 +8,7 @@ export default function Header() {
         <View style={styles.header}>
             {/*icon for the menu */}
             <View>
-                <Text style={styles.headerText}></Text>
+                <Text style={styles.headerText}>GameZone</Text>
             </View>
         </View>
     );
