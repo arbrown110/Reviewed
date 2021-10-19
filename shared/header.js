@@ -4,6 +4,10 @@ import { MaterialIcons } from '@expo/vector-icons';
 
 
 export default function Header() {
+
+    const openMenu =() => {
+        navigation.openDrawer
+    }
     return (
         <View style={styles.header}>
             <MaterialIcons name="menu" size={28} onPress={} styles={styles.icon}/>
