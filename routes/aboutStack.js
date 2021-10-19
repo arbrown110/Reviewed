@@ -8,8 +8,8 @@ const screens = {
     About: {
         screen: About,
         navigationOptions:{
-            title: 'About GameZone',
-        }
+            headerTitle: () => <Header />
+        },
     },
 }
 const AboutStack = createStackNavigator(screens, {
