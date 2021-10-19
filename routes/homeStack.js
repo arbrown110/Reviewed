@@ -9,7 +9,7 @@ const screens = {
     Home: {
         screen: Home,
         navigationOptions:{
-            headerTitle: () => <Header />
+            headerTitle: () => <Header />,
   
         }
     },
