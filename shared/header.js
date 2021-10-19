@@ -6,7 +6,7 @@ import { MaterialIcons } from '@expo/vector-icons';
 export default function Header() {
     return (
         <View style={styles.header}>
-            {/*icon for the menu */}
+            <MaterialIcons name="menu" size={28}/>
             <View>
                 <Text style={styles.headerText}>GameZone</Text>
             </View>
