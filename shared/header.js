@@ -6,7 +6,7 @@ import { MaterialIcons } from '@expo/vector-icons';
 export default function Header() {
 
     const openMenu =() => {
-        navigation.openDrawer
+        // navigation.openDrawer()
     }
     return (
         <View style={styles.header}>
@@ -33,4 +33,7 @@ const styles= StyleSheet.create({
         color: '#333',
         letterSpacing: 1,
     },
+    Icon: {
+        
+    }
 });
