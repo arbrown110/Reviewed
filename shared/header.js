@@ -10,7 +10,7 @@ export default function Header() {
     }
     return (
         <View style={styles.header}>
-            <MaterialIcons name="menu" size={28} onPress={} styles={styles.icon}/>
+            <MaterialIcons name="menu" size={28} onPress={openMenu} styles={styles.icon}/>
             <View>
                 <Text style={styles.headerText}>GameZone</Text>
             </View>
@@ -34,6 +34,7 @@ const styles= StyleSheet.create({
         letterSpacing: 1,
     },
     Icon: {
-        
+      postion: 'absolute',
+      left: 17  
     }
 });
