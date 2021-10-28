@@ -7,10 +7,12 @@ import React from 'react';
 const screens = {
     About: {
         screen: About,
-        navigationOptions:{
-            headerTitle: () => <Header />
-        },
-    },
+        navigationOptions:({ navigation }) => {
+            return {
+                headerTitle: () => <Header navigation={navigation} />,
+            }
+        }
+    },    
 }
 const AboutStack = createStackNavigator(screens, {
     defaultNavigationOptions: {
@@ -20,4 +22,4 @@ const AboutStack = createStackNavigator(screens, {
     }
 });
 
-export default AboutStack;
+export default AboutStack;s
